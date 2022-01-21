@@ -10,6 +10,8 @@
 
 ### Bugfix
 
+- Protect against ghost content loading and scroll to top @reebalazs
+
 ### Internal
 
 ## 15.0.0-alpha.6 (2022-02-21)
