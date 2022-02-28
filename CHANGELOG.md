@@ -6,13 +6,27 @@
 
 ### Feature
 
-- Introduce the new `BUILD_DIR` runtime environment variable to direct the build to run in an especific location, different than `build` folder. @sneridagh
+- Add blocks rendering in Event and NewsItem views (rel plone.volto#32) @nzambello @ksuess
 
 ### Bugfix
 
 - Protect against ghost content loading and scroll to top @reebalazs
+- Fix redirect bug with URLs containing querystrings @robgietema
 
 ### Internal
+
+## 15.0.0-alpha.8 (2022-02-22)
+
+### Internal
+
+- Better implementation of the add-on load coming from the environment variable `ADDONS` @sneridagh
+
+## 15.0.0-alpha.7 (2022-02-22)
+
+### Feature
+
+- Introduce the new `BUILD_DIR` runtime environment variable to direct the build to run in an especific location, different than `build` folder. @sneridagh
+- Handle redirect permanent calls from the backend in the frontend (e.g. when changing the short name) @robgietema
 
 ## 15.0.0-alpha.6 (2022-02-21)
 
@@ -43,6 +57,7 @@
 - Clean up toctree errors by removing obsolete files, adding `:orphan:` field list, and reorganizing some files. @sneridagh and @stevepiercy
 - Switch to using netlify.toml to configure Netlify Python environment. @stevepiercy
 - Convert admonition syntax from Markdown to MyST. @sneridagh
+- Make links build both in Volto and Plone documentation. See https://github.com/plone/volto/pull/3094 @stevepiercy
 
 ## 15.0.0-alpha.5 (2022-02-16)
 
